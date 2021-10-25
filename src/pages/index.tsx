@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react";
 import toast, { Toaster } from 'react-hot-toast';
+import { api } from "../services/api";
 
 export default function Home() {
   const [name, setName] = useState('');
@@ -9,17 +10,13 @@ export default function Home() {
   function sendEmail(event: FormEvent) {
     event.preventDefault();
 
-    fetch('/api/mail', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        name,
-        email,
-        message
-      })
-    })
+    const formData = {
+      name,
+      email,
+      message
+    }
+
+    api.post('/mail', formData)
     .then((response) => {
       console.log(response);
       setName('');
@@ -30,7 +27,7 @@ export default function Home() {
     .catch((error) => {
       console.log(error);
       toast.error("An error has occurred!")
-    })
+    });  
   };
 
   return (
