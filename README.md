@@ -1,29 +1,37 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">
+  CONTACT FORM
+</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">
+  <img alt="technology" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+  <img alt="technology" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white">
 
-## Preview
+  <img alt="technology" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+</p>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+# 💻 About project
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Functional contact form with sending data via email, in the development typescript, nextjs, nodemailer and tailwindcss were used.
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+# 🚀 How to run the project
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+# Clone this repository
+$ git clone https://github.com/jefferson1104/contactFormMail-nextjs.git
+
+# Configure nodemailer transporter through .env
+change .env.local.example to .env.local
+
+# Enter your provider's email setting in .env.local
+
+# Run project
+$ yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# 🎨 Screenshots
+
+![screenshot](./assets/screenshot-01.png)
+![screenshot](./assets/screenshot-02.png)
+![screenshot](./assets/screenshot-03.png)
+![screenshot](./assets/screenshot-04.png)
