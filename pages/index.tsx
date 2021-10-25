@@ -1,6 +1,4 @@
-import type { NextPage } from 'next';
-
-export default function Home(): NextPage {
+export default function Home() {
   return (
     <h1>Contact Form</h1>
   )
