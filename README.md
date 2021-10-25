@@ -12,7 +12,7 @@
 
 # 💻 About project
 
-Functional contact form with sending data via email, in the development typescript, nextjs, nodemailer and tailwindcss were used.
+Thanks to the BFF and serverless feature of NextJS I built a functional form with data submission via email, in the development the main technologies were used: typescript, nextjs, axios, nodemailer and tailwindcss.
 
 # 🚀 How to run the project
 
